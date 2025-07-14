@@ -35,14 +35,21 @@ const Index = () => {
           </Card>
 
           <div className="space-y-4">
-            <Link to="/about">
-              <Button size="lg" className="text-lg px-8 py-3">
-                了解更多 →
-              </Button>
-            </Link>
-            
+            <div className="flex gap-4 justify-center">
+              <Link to="/about">
+                <Button size="lg" className="text-lg px-8 py-3">
+                  了解更多 →
+                </Button>
+              </Link>
+              <Link to="/demo">
+                <Button size="lg" variant="outline" className="text-lg px-8 py-3">
+                  路由分析工具
+                </Button>
+              </Link>
+            </div>
+
             <div className="text-sm text-muted-foreground">
-              点击按钮跳转到关于页面
+              点击按钮跳转到不同页面
             </div>
           </div>
         </div>
