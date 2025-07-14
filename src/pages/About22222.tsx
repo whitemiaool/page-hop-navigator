@@ -20,7 +20,7 @@ const About = () => {
 
           <Card className="p-8">
             <h2 className="text-2xl font-semibold mb-4">我们的使命</h2>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-muted-foreground mb-6 bg-red-bg p-4 rounded-lg">
               我们致力于创造优秀的用户体验，通过创新的技术和设计，为用户提供最好的服务。
               我们相信技术的力量可以改变世界，让生活变得更加美好。
             </p>
