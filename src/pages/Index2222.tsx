@@ -34,6 +34,26 @@ const Index = () => {
             </div>
           </Card>
 
+          {/* 带背景图的卡片 */}
+          <Card className="relative max-w-2xl mx-auto overflow-hidden">
+            <div 
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80')`
+              }}
+            />
+            <div className="absolute inset-0 bg-black/40" />
+            <div className="relative z-10 p-8 text-white">
+              <h2 className="text-3xl font-bold mb-4">探索无限可能</h2>
+              <p className="text-lg mb-6 text-white/90">
+                山峰在阳光照耀下展现出壮丽的景色，正如我们的应用为您带来无限的可能性。
+              </p>
+              <Button className="bg-white/20 hover:bg-white/30 text-white border border-white/30">
+                开始探索
+              </Button>
+            </div>
+          </Card>
+
           <div className="space-y-4">
             <div className="flex gap-4 justify-center">
               <Link to="/about">
