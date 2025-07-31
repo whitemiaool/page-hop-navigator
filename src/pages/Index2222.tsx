@@ -83,6 +83,90 @@ const Index = () => {
               点击按钮跳转到不同页面
             </div>
           </div>
+
+          {/* 卡片列表 */}
+          <div className="max-w-6xl mx-auto mt-12">
+            <h2 className="text-3xl font-bold text-center mb-8">精选服务</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <Card className="p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <div className="w-6 h-6 bg-primary rounded"></div>
+                  </div>
+                  <h3 className="text-xl font-semibold ml-3">快速部署</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  一键部署应用，快速上线您的项目，节省开发时间。
+                </p>
+                <Button variant="outline" className="w-full">了解详情</Button>
+              </Card>
+
+              <Card className="p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center">
+                    <div className="w-6 h-6 bg-secondary rounded-full"></div>
+                  </div>
+                  <h3 className="text-xl font-semibold ml-3">云端存储</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  安全可靠的云端存储服务，保障您的数据安全。
+                </p>
+                <Button variant="outline" className="w-full">了解详情</Button>
+              </Card>
+
+              <Card className="p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center">
+                    <div className="w-6 h-6 bg-accent rounded-sm"></div>
+                  </div>
+                  <h3 className="text-xl font-semibold ml-3">数据分析</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  强大的数据分析工具，帮助您洞察业务趋势。
+                </p>
+                <Button variant="outline" className="w-full">了解详情</Button>
+              </Card>
+
+              <Card className="p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-muted/20 rounded-lg flex items-center justify-center">
+                    <div className="w-6 h-6 bg-muted-foreground rounded-lg"></div>
+                  </div>
+                  <h3 className="text-xl font-semibold ml-3">API 集成</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  丰富的API接口，轻松集成第三方服务。
+                </p>
+                <Button variant="outline" className="w-full">了解详情</Button>
+              </Card>
+
+              <Card className="p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <div className="w-6 h-6 bg-primary rounded-full"></div>
+                  </div>
+                  <h3 className="text-xl font-semibold ml-3">团队协作</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  高效的团队协作工具，提升工作效率。
+                </p>
+                <Button variant="outline" className="w-full">了解详情</Button>
+              </Card>
+
+              <Card className="p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center">
+                    <div className="w-6 h-6 bg-secondary rounded"></div>
+                  </div>
+                  <h3 className="text-xl font-semibold ml-3">24/7 支持</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  全天候技术支持，确保您的服务稳定运行。
+                </p>
+                <Button variant="outline" className="w-full">了解详情</Button>
+              </Card>
+            </div>
+          </div>
         </div>
       </div>
     </div>
