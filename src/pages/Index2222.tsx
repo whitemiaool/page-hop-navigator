@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background p-8">
+  return <div className="min-h-screen bg-background p-8">
       <div className="max-w-4xl mx-auto">
         <div className="text-center space-y-6">
           <div>
@@ -25,7 +23,7 @@ const Index = () => {
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                <p className="text-muted-foreground">响应式设计，适配各种设备</p>
+                <p className="text-muted-foreground">响应式设计，适配1各123213123213213123123123种设备</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
@@ -36,12 +34,9 @@ const Index = () => {
 
           {/* 带背景图的卡片 */}
           <Card className="relative max-w-2xl mx-auto overflow-hidden">
-            <div 
-              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-              style={{
-                backgroundImage: `url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80')`
-              }}
-            />
+            <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80')`
+          }} />
             <div className="absolute inset-0 bg-black/40" />
             <div className="relative z-10 p-8 text-white">
               <div className="flex items-center gap-6">
@@ -55,11 +50,7 @@ const Index = () => {
                   </Button>
                 </div>
                 <div className="flex-shrink-0">
-                  <img 
-                    src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
-                    alt="海浪景色" 
-                    className="w-32 h-32 rounded-lg object-cover border-2 border-white/30 shadow-lg"
-                  />
+                  <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="海浪景色" className="w-32 h-32 rounded-lg object-cover border-2 border-white/30 shadow-lg" />
                 </div>
               </div>
             </div>
@@ -169,8 +160,6 @@ const Index = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
