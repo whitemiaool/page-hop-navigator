@@ -19,7 +19,7 @@ const Index = () => {
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                <p className="text-muted-foreground">History 路由模式，支持11111111浏览器前进后退</p>
+                <p className="text-muted-foreground">History 路由模式，支持11111111浏览器前进后退111111111</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
