@@ -6,7 +6,7 @@ const Index = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center space-y-6">
           <div>
-            <h1 className="text-5xl font-bold text-foreground mb-4">欢迎来到首页</h1>
+            <h1 className="text-5xl font-bold text-foreground mb-4">首页</h1>
             <p className="text-xl text-muted-foreground">这是一个支持页面跳转的示例应用</p>
           </div>
 
