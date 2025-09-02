@@ -23,7 +23,7 @@ const Index = () => {
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                <p className="text-muted-foreground">响应式设计，适配1各123213123213213123123123种设11111111备</p>
+                <p className="text-muted-foreground">响应式设计</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
@@ -84,7 +84,7 @@ const Index = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <div className="w-6 h-6 bg-primary rounded"></div>
                   </div>
-                  <h3 className="text-xl font-semibold ml-3">快速部署</h3>
+                  <h3 className="ml-3 font-extrabold text-5xl">快速部署</h3>
                 </div>
                 <p className="text-muted-foreground mb-4">
                   一键部署应用，快速上线您的项目，节省开发时间。
