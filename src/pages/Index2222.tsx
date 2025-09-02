@@ -15,7 +15,7 @@ const Index = () => {
             <div className="space-y-4 text-left">
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                <p className="text-muted-foreground">使用 React Router 实现页面导航</p>
+                <p className="text-muted-foreground">使用 React Router 实现页面导航1123123213</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
