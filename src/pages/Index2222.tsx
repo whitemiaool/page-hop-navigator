@@ -23,7 +23,7 @@ const Index = () => {
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                <p className="text-muted-foreground">响应式设计，适配1各123213123213213123123123种设备</p>
+                <p className="text-muted-foreground">响应式设计，适配1各123213123213213123123123种设11111111备</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
