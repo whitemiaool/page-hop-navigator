@@ -6,7 +6,7 @@ const Index = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center space-y-6">
           <div>
-            <h1 className="text-5xl font-bold text-foreground mb-4">首页</h1>
+            <h1 className="text-5xl font-bold text-foreground mb-4">欢迎来到首页</h1>
             <p className="text-xl text-muted-foreground">这是一个支持页面跳转的示例应用</p>
           </div>
 
@@ -15,11 +15,11 @@ const Index = () => {
             <div className="space-y-4 text-left">
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                <p className="text-muted-foreground">使用 React Router 实现页面导航1123123213</p>
+                <p className="text-muted-foreground">使用 React Router 实现页面导航</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                <p className="text-muted-foreground">History 路由模式，支持11111111浏览器前进后退111111111</p>
+                <p className="text-muted-foreground">History 路由模式，支持11111111浏览器前进后退</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
